@@ -13,3 +13,26 @@ main{
 .marca-cryptoapp{
      font-family: "Black Han Sans", sans-serif;
 }
+
+.img-carousel{
+    height: 250px;
+    object-fit: cover;
+}
+
+@media(width >= 768px){
+    .img-carousel{
+        height: 350px;
+    }
+
+}
+
+@media(width >= 992px){
+    .img-carousel{
+        height: 500px;
+    }
+    
+    .img-carousel-celular{
+        object-fit: 50% 80%;
+    }
+
+}
