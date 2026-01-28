@@ -19,6 +19,11 @@ main{
     object-fit: cover;
 }
 
+.carousel-control-prev-icon, .carousel-control-next-icon{
+    filter: invert(1);
+
+}
+
 @media(width >= 768px){
     .img-carousel{
         height: 350px;
